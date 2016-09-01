@@ -1,0 +1,213 @@
+@-webkit-keyframes blink {
+  50% {
+	color:red;
+
+  }
+}
+@-moz-keyframes blink {
+  50% {
+	color:red;
+
+  }
+}
+@-ms-keyframes blink {
+  50% {
+	color:red;
+
+  }
+}
+@keyframes blink {
+ 50% {
+	color:red;
+	}
+}
+
+@-webkit-keyframes dance {
+	from {
+		left: 10%;
+	}
+	to {
+		left: 80%;
+	}
+}
+@-moz-keyframes dance {
+	from {
+		left: 10%;
+	}
+	to {
+		left: 80%;
+	}
+}
+@-ms-keyframes dance {
+	from {
+		left: 10%;
+	}
+	to {
+		left: 80%;
+	}
+}
+@keyframes dance {
+	from {
+		left: 10%;
+	}
+	to {
+		left: 80%;
+	}
+}
+body {
+	text-align: center;
+	}
+.discobox {
+}
+button {
+	height: 50px;
+	width: 205px;
+	border-radius: 10px;
+	font-family: 'Exo 2', verdana, arial, sans-serif;
+	color: white;
+	font-size: 30px;
+	background: black;
+}
+.header {
+	text-align: center;
+	font-family: 'Fascinate Inline', verdana, arial, sans-serif;
+	font-size: 50px;
+}
+h1 {
+	
+}
+.robot {
+	position: relative;
+	left: 43%;
+}
+.leftright {
+	animation: dance 5s 10 alternate;
+	-webkit-animation: dance 5s infinite alternate;
+	-moz-animation: dance 5s infinite alternate;
+	-ms-animation: dance 5s infinite alternate;
+}
+.beep {
+	width: 5px;
+	height: 0;
+	margin-top: 15px;
+	border: 5px solid transparent;
+	border-top: 7px solid #777;
+	border-bottom: 60px solid #888;
+	position: relative;
+	left: 110px;
+}
+.brain {
+	background: -moz-radial-gradient(circle, green 5%, #873600 10%, transparent 40%), #FFCBAD;
+	background: -webkit-radial-gradient(circle, green 5%, #873600 10%, transparent 40%), #FFCBAD;
+	background: -ms-radial-gradient(circle, green 5%, #873600 10%, transparent 40%), #FFCBAD;
+	background: radial-gradient(circle, green 5%, transparent 40%), #FFCBAD;
+	background-size: 56px 112px;
+	height: 135px;
+	width: 112px;
+	border-radius: 90px 90px 15px 15px;
+	border-bottom: 5px solid #FFCBAD;
+	border-left: 30px solid #873600;
+	border-top: 30px solid #873600;
+	border-right: 30px solid #873600;
+	position: relative;
+	left: 32px;
+}
+.nose {
+	font-family: 'Indie Flower', verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FF7F7F;
+	position: relative;
+	top: 60px;
+	left: 0px;
+}
+.mouth {
+	font-family: 'Exo 2', verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 52px;
+	color: #7F0000;
+	position: relative;
+	top: 40px;
+	left: 0px;
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+}
+.torso {
+	height: 0;
+	width: 105px;
+	border-top: 225px solid #450051;
+	border-left: 56px solid transparent;
+	border-right: 56px solid transparent;
+	border-radius: 15px 15px 75px 75px;
+}
+.left {
+	font-family: 'Poller One', verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 187px;
+	color: #FFCBAD;
+	transform: rotate(200deg);
+	-webkit-transform: rotate(200deg);
+	-moz-transform: rotate(200deg);
+	position: relative;
+	top: -240px;
+	left: -150px;
+	z-index: -1;
+}
+.heart {
+	font-family: 'Poller One', verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 187px;
+	color: pink;
+	position: relative;
+	top: -470px;
+	z-index: 1;
+}
+.laser {
+	-webkit-animation: blink 1s infinite;
+	-moz-animation: blink 1s infinite;
+	-ms-animation: blink 1s infinite;
+	animation: blink 1s infinite;
+}
+.right {
+	font-family: 'Poller One', verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 187px;
+	color: #FFCBAD;
+	transform: scaleY(-1) rotate(20deg);
+	-webkit-transform: scaleY(-1) rotate(20deg);
+	-moz-transform: scaleY(-1) rotate(20deg);
+	position: relative;
+	top: -685px;
+	left: 150px;
+	z-index: -1;
+}
+.belt {
+	height: 15px;
+	width: 135px;
+	background: #666;
+	position: relative;
+	top: -60px;
+	left: 40px;
+	z-index: 1;
+}
+.skirt {
+	height: 0;
+	width: 105px;
+	border-bottom: 225px solid #450051;
+	border-right: 56px solid transparent;
+	border-left: 56px solid transparent;
+	border-radius: 75px 75px 15px 15px;
+	position: relative;
+	top: -120px;
+}
+.foot {
+	height: 30px;
+	width: 30px;
+	background: #ccc;
+	border-radius: 52px;
+	border: 11px solid #999;
+	position: relative;
+	left: 80px;
+	top: -130px;
+}
